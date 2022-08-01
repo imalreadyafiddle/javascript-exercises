@@ -2,7 +2,7 @@ const sumAll = function(numOne, numTwo) {
     let sum = 0;
     let twoNumbers = [numOne, numTwo];
     if (numOne > 0 && numTwo > 0 && typeof(numOne) === 'number' && typeof(numTwo) === 'number') {
-        // sort but off of numerical value and not the stupid default unicode value
+        // sort but off of numerical value and not the stupid default unicode value, don't ask me why this works, it just does
         twoNumbers.sort(function(a,b) {
             return a - b;
         });
