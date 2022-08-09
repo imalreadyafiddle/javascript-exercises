@@ -1,5 +1,5 @@
-const fibonacci = function() {
-
+const fibonacci = function(fibTo) {
+    
 };
 
 // Do not edit below this line
